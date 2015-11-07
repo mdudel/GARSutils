@@ -3,7 +3,7 @@ Convert latitude,longitude to a GARS code, and extract coordinates (center, corn
 
 This Java project converts latitude and longitude (in decimal degrees) to a GARS code. It also converts a GARS string
 to a latitude,longitude point (decimal degrees) of the center of the GARS tile as well as providing the corner coordinates 
-of the GARS tile. JSON and KML representations of teh GARS tile are also supported.
+of the GARS tile. JSON and KML representations of the GARS tile are also supported.
 
 GARS is the Global Area Reference Systems and decribed here: http://earth-info.nga.mil/GandG/coordsys/grids/gars.html
 
