@@ -24,17 +24,24 @@ Code usage snippets:
         
         // GARS to lat, lon
         garsCode = "427LK2";
-        double[] latlon = GARStoLL.getCenterCoordsArray(garsCode); //latlon[0] = latitude, latlon[1] = longitude
-        double[] ll = GARStoLL.getCornerCoordsArray(garsCode); //ll[0],ll[1] represent lat,lon of lower left corner
-        //ll[2],ll[3] represent lat,lon of upper right corner
+        double[] latlon = GARStoLL.getCenterCoordsArray(garsCode); 
+                //latlon[0] = latitude, latlon[1] = longitude
+        double[] ll = GARStoLL.getCornerCoordsArray(garsCode); 
+                //ll[0],ll[1] represent lat,lon of lower left corner
+                //ll[2],ll[3] represent lat,lon of upper right corner
         String center = GARStoLL.getCenterCoords(garsCode);
-        String jsonCenter = GARStoLL.getCenterJSONCoords(garsCode); // JSON object represent the center coordinates
-        String jsonCorners = GARStoLL.getCornerJSONCoords(garsCode); // JSON object represent the corner coordinates
+        String jsonCenter = GARStoLL.getCenterJSONCoords(garsCode); 
+                // JSON object represent the center coordinates
+        String jsonCorners = GARStoLL.getCornerJSONCoords(garsCode); 
+                // JSON object represent the corner coordinates
 
         String kmlColor = "ff0000ff";
         double kmlLabelSize = 1.0;
-        String kmlCenterPoint = GARStoLL.getKMLPoint(garsCode, kmlColor, kmlLabelSize); // GARS center as kml placemerk
+        String kmlCenterPoint = GARStoLL.getKMLPoint(garsCode, kmlColor, kmlLabelSize); 
+                // GARS center as kml placemerk
         double kmlLineWidth = 1.5;
-        String kmlLineString = GARStoLL.getKMLLine(badGARS, kmlColor, lat); // GARS tile as kml linestring
+        String kmlLineString = GARStoLL.getKMLLine(badGARS, kmlColor, lat); 
+                // GARS tile as kml linestring
         String kmlPolygonFillColor = "aa00ff00";
-        String kmlPolygon = GARStoLL.getKMLPolygon(badGARS, kmlColor, kmlPolygonFillColor, kmlLineWidth); // gars tile as fill kml polygon
+        String kmlPolygon = GARStoLL.getKMLPolygon(badGARS, kmlColor, kmlPolygonFillColor, kmlLineWidth); 
+                // gars tile as fill kml polygon
