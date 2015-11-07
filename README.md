@@ -27,8 +27,8 @@ Code usage snippets:
         double[] latlon = GARStoLL.getCenterCoordsArray(garsCode); 
                 //latlon[0] = latitude, latlon[1] = longitude
         double[] ll = GARStoLL.getCornerCoordsArray(garsCode); 
-                //ll[0],ll[1] represent lat,lon of lower left corner
-                //ll[2],ll[3] represent lat,lon of upper right corner
+                //ll[0],ll[1] represents the lat,lon of lower left corner
+                //ll[2],ll[3] represents the lat,lon of upper right corner
         String center = GARStoLL.getCenterCoords(garsCode);
         String jsonCenter = GARStoLL.getCenterJSONCoords(garsCode); 
                 // JSON object represent the center coordinates
