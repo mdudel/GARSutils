@@ -6,11 +6,14 @@ to a latitude,longitude point (decimal degrees) of the center of the GARS tile a
 of the GARS tile.
 
 GARS is the Global Area Reference Systems and decribed here: http://earth-info.nga.mil/GandG/coordsys/grids/gars.html
+
 The Java classes are ports of NGA's geotrans 3.5 cpp code: http://earth-info.nga.mil/GandG/geotrans/
 
 See GARS.java for all usage examples. 
 
 Code usage snippets:
+
+
         double lat = 48.123;
         double lon = 8.123;
         // Lat, Lon to GARS
