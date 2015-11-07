@@ -18,9 +18,9 @@ Code usage snippets:
         double lon = 8.123;
         // Lat, Lon to GARS
         String garsCode = LLtoGARS.getGARS(latitude, longitude); //Returns the default 5x5-minute GARS code 
-        garsCode = LLtoGARS.getGARS(latitude, longitude, "5"); //Returns the 5x5-minute GARS code        
-        garsCode = LLtoGARS.getGARS(latitude, longitude, "15"); //Returns the 5x5-minute GARS code
-        garsCode = LLtoGARS.getGARS(latitude, longitude, "30"); //Returns the 5x5-minute GARS code
+        garsCode = LLtoGARS.getGARS(latitude, longitude, "5");  //Returns the 5x5-minute GARS code        
+        garsCode = LLtoGARS.getGARS(latitude, longitude, "15"); //Returns the 15x15-minute GARS code
+        garsCode = LLtoGARS.getGARS(latitude, longitude, "30"); //Returns the 30x30-minute GARS code
         
         // GARS to lat, lon
         garsCode = "427LK2";
