@@ -40,8 +40,8 @@ Code usage snippets:
         String kmlCenterPoint = GARStoLL.getKMLPoint(garsCode, kmlColor, kmlLabelSize); 
                 // GARS center as kml placemerk
         double kmlLineWidth = 1.5;
-        String kmlLineString = GARStoLL.getKMLLine(badGARS, kmlColor, lat); 
+        String kmlLineString = GARStoLL.getKMLLine(garsCode, kmlColor, lat); 
                 // GARS tile as kml linestring
         String kmlPolygonFillColor = "aa00ff00";
-        String kmlPolygon = GARStoLL.getKMLPolygon(badGARS, kmlColor, kmlPolygonFillColor, kmlLineWidth); 
+        String kmlPolygon = GARStoLL.getKMLPolygon(garsCode, kmlColor, kmlPolygonFillColor, kmlLineWidth); 
                 // gars tile as fill kml polygon
