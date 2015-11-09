@@ -44,4 +44,4 @@ Code usage snippets:
                 // GARS tile as kml linestring
         String kmlPolygonFillColor = "aa00ff00";
         String kmlPolygon = GARStoLL.getKMLPolygon(garsCode, kmlColor, kmlPolygonFillColor, kmlLineWidth); 
-                // gars tile as fill kml polygon
+                // gars tile as filled kml polygon
