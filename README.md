@@ -31,16 +31,16 @@ Code usage snippets:
                 //ll[2],ll[3] represents the lat,lon of upper right corner
         String center = GARStoLL.getCenterCoords(garsCode);
         String jsonCenter = GARStoLL.getCenterJSONCoords(garsCode); 
-                // JSON object represent the center coordinates
+                // JSON object representing the center coordinates
         String jsonCorners = GARStoLL.getCornerJSONCoords(garsCode); 
-                // JSON object represent the corner coordinates
+                // JSON object representing the corner coordinates
 
         String kmlColor = "ff0000ff";
         double kmlLabelSize = 1.0;
         String kmlCenterPoint = GARStoLL.getKMLPoint(garsCode, kmlColor, kmlLabelSize); 
                 // GARS center as kml placemerk
         double kmlLineWidth = 1.5;
-        String kmlLineString = GARStoLL.getKMLLine(garsCode, kmlColor, lat); 
+        String kmlLineString = GARStoLL.getKMLLine(garsCode, kmlColor, kmlLineWidth); 
                 // GARS tile as kml linestring
         String kmlPolygonFillColor = "aa00ff00";
         String kmlPolygon = GARStoLL.getKMLPolygon(garsCode, kmlColor, kmlPolygonFillColor, kmlLineWidth); 
