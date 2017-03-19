@@ -5,7 +5,7 @@ This Java project converts latitude and longitude (in decimal degrees) to a GARS
 to a latitude,longitude point (decimal degrees) of the center of the GARS tile as well as providing the corner coordinates 
 of the GARS tile. JSON and KML representations of the GARS tile are also supported.
 
-GARS is the Global Area Reference Systems and described here: http://earth-info.nga.mil/GandG/coordsys/grids/gars.html
+GARS is the Global Area Reference System described here: http://earth-info.nga.mil/GandG/coordsys/grids/gars.html
 
 The Java classes are ports of NGA's geotrans 3.5 cpp code: http://earth-info.nga.mil/GandG/geotrans/
 
